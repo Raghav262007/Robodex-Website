@@ -1,0 +1,584 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.robo {
+  width: 70px;
+}
+.homeflex {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.heading1 {
+  display: block;
+  color: #1b4cb8;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  margin-top: 120px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+  text-align: left;
+  /*margin-right: 100px;*/
+}
+.description {
+  font-family: "Poppins", sans-serif;
+  /*margin-right: 40px;*/
+  margin-left: 100px;
+  width: 50%;
+  font-weight: bolder;
+  color: rgb(44, 44, 44);
+  margin-top: 40px;
+  font-size: 20px;
+}
+.home_img {
+  /*margin-bottom: 300px;*/
+  width: 500px;
+  margin-right: 100px;
+  margin-top: 0px;
+  float: right;
+  position: relative;
+  bottom: 100px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+span {
+  opacity: 0;
+  transition: all 4s ease;
+}
+span.fade {
+  opacity: 1;
+}
+
+.heading2 {
+  display: block;
+  color: #1b4cb8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  margin-top: 0px;
+  /*margin-left: 25opx;*/
+  text-align: center;
+  padding-top: 0px;
+}
+
+.para1 {
+  font-family: "Poppins", sans-serif;
+  /*margin-right: 40px;*/
+  margin-left: 200px;
+  width: 35%;
+  font-weight: bolder;
+  color: rgb(44, 44, 44);
+  margin-top: 40px;
+  font-size: 20px;
+}
+.para2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-left: 195px;
+  margin-bottom: 0px;
+  width: 40%;
+}
+.image_about {
+  float: right;
+  margin-top: 40px;
+  width: 500px;
+ margin-right: 100px;
+}
+.about {
+ background-color: white;
+ margin-top: 0px;
+}
+
+
+.events {
+  background-color: white;
+}
+.heading5 {
+  text-align: center;
+  margin-top: 160px;
+  font-size: 60px;
+  color: #1b4cb8;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.undraw2 {
+  width: 70px;
+}
+.heading3 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 60px;
+  color: #1b4cb8;
+  font-weight: 500;
+  padding-top: 140px;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.members {
+  background-color: white;
+}
+.event1 {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  border-radius: 20px;
+  padding:10px;
+  border: 1px solid rgb(206, 204, 204);
+  margin-top: 30px;
+  margin-right: 30px;
+  width: 360px;
+}
+.event2 {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid rgb(206, 204, 204);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.event2 btn {
+  margin: 0;
+}
+.head1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  color: #1b4cb8;
+  margin-top: 10px;
+  text-align: center;
+}
+.head2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  color: #1b4cb8;
+  margin-top: 10px;
+  text-align: center;
+}
+.classe {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+.state {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 15px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.btn-submit:hover {
+  cursor: pointer;
+}
+.learn2, .learn1 {
+  background-color: #1b4cb8;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.learn2 {
+  margin-top: 20px;
+  margin-left: 120px;
+}
+.learn1 {
+  margin-top: 45px;
+  margin-left: 110px;
+}
+
+.paragraph, .salutation {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  width: 55%;
+  margin-left: 350px;
+  color: black;
+}
+.salutation {
+  margin-top: 50px;
+}
+.carding {
+  flex-direction: row;
+}
+
+
+
+.teacher h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 50px;
+  font-size: 20px;
+  color: rgb(44, 44, 44);
+}
+.name1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.flxs1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flxs2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+.mem img {
+  padding-top: 20px;
+  width: 150px;
+}
+.mem h4 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.mem p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+}
+.logo {
+  padding-top: 48px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.nav-list {
+  display: flex;
+}
+.nav-list li {
+  position: sticky;
+  list-style: none;
+  /*display: flex;*/
+  padding: 25px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #1b4cb8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+}
+.nav-list a:hover {
+  transition: 0.8s ease;
+  color: rgb(71, 71, 71);
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: 270px;
+  width: 50%;
+  font-size: 25px;
+  padding: 5px 3px;
+  border: 1px solid rgb(219, 205, 205);
+  border-radius: 5px;
+  background-color: rgb(240, 120, 120);
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+.btn:hover {
+  transform: 0.7s ease;
+  cursor: pointer;
+}
+.cardflex1 {
+  display: flex;
+  justify-content: center;
+}
+.cardflex2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.class {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+.membername {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 20px;
+}
+.card1 {
+  background-color: white;
+  width: 250px;
+  height: auto;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid rgb(206, 204, 204);
+  margin: 15px;
+}
+
+.contact_form {
+  display: flex;
+  justify-content: center;
+}
+.school_info {
+  font-family: "Montserrat", sans-serif;
+  width: 400px;
+  min-height: 400px;
+  margin-left: 40px;
+}
+.school_info h4 {
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.school_info h3 {
+  font-weight: 900;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.school_info h2 {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.school_info b {
+  color: #1b4cb8;
+}
+.school_info p {
+  font-size: 22px;
+}
+.heading4 {
+  padding-bottom: 40px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 60px;
+  color: #1b4cb8;
+  font-weight: 500;
+}
+
+.carding {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link_pdf {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+.foot {
+  background-color: #1b4cb8;
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 480px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.6rem;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+.parv_b {
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+}
+.arnav_b {
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+}
+.shounak_b {
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #1b4cb8;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+/*Mobile*/
+
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 4%;
+  top: 15px;
+}
+.line {
+  width: 33px;
+  background-color: #1b4cb8;
+  height: 4px;
+  margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1235px) {
+  body {
+    max-width: 360px;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-list li {
+    flex-direction: column;
+  }
+  .navbar {
+    height: 420px;
+    flex-direction: column;
+    transition: all 1s ease-out;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger {
+    display: block;
+  }
+  .h-nav-resp {
+    height: 72px;
+  }
+  .v-class-resp {
+    opacity: 0;
+  }
+  .homeflex {
+    flex-direction: column;
+  }
+  .heading1 {
+    padding-top: 140px;
+    padding-left: 20px;
+  }
+  .description {
+    padding-left: 20px;
+    padding-right: 0;
+    margin: 0;
+    width: 360px;
+  }
+  .home_img {
+    width: 360px;
+  }
+
+  .para1 {
+    padding-left: 20px;
+    padding-right: 0;
+    margin: 0;
+    width: 360px;
+  }
+  .para2 {
+    padding-left: 20px;
+    padding-right: 0;
+    margin: 0;
+    width: 360px;
+  }
+  .image_about {
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    padding-left: 20px;
+  }
+  .undraw1 {
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    padding-left: 20px;
+  }
+
+  
+  .incharge {
+    width: 360px;
+  }
+  .name1 {
+    width: 360px;
+  }
+  .cardflex1 {
+    flex-direction: column;
+  }
+  .cardflex2 {
+    flex-direction: column;
+  }
+  .card1 {
+    width: 360px;
+  }
+  .class {
+    text-align: center;
+  }
+
+  .heading4 {
+    padding-top: 140px;
+    padding-left: 20px;
+  }
+  .contact_form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+  }
+  .map {
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .school_info {
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .foot {
+    display: none;
+  }
+}
+
+.foot {
+  display: block;
+}
+.foot_text {
+  text-align: left;
+  margin-left: 200px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.contact_form {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+.contact_form li {
+  list-style: none;
+  font-weight: bolder;
+}
