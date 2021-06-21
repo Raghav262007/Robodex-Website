@@ -708,9 +708,10 @@ body::-webkit-scrollbar {
     width: 360px;
   }
   .map {
-    width: 100%;
+    width: 80%;
+    text-align: center;
     margin-top: 10px;
-    margin-left: 14%;
+    margin-left: 20px;
   }
   .school_info {
     width: 100%;
