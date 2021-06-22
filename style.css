@@ -17,6 +17,8 @@ h1 {
 
 .homeflex {
   background-color: white;
+  width: 90%;
+  margin-left: 80px;
 }
 
 .heading1 {
@@ -35,17 +37,18 @@ h1 {
   font-family: "Poppins", sans-serif;
   /*margin-right: 40px;*/
   margin-left: 70px;
-  width: 45%;
+  width: 35%;
   font-weight: bolder;
   color: rgb(44, 44, 44);
   margin-top: 40px;
   height: auto;
+  text-align: justify;
   font-size: 20px;
 }
 .home_img {
   /*margin-bottom: 300px;*/
-  width: 700px;
-  margin-right: 70px;
+  width: 600px;
+  margin-right: 140px;
   margin-top: 25px;
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -73,39 +76,43 @@ span.fade {
 .para1 {
   font-family: "Poppins", sans-serif;
   /*margin-right: 40px;*/
-  margin-left: 70px;
+  margin-left: 140px;
   margin-bottom: 0px;
-  width: 45%;
+  width: 40%;
   font-weight: bolder;
   color: rgb(44, 44, 44);
   margin-top: 40px;
   font-size: 20px;
+  text-align: justify;
 }
 .para2 {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  margin-left: 70px;
+  margin-left: 140px;
   margin-bottom: 0px;
   width: 50%;
+  text-align: justify;
 }
 .para3 {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  margin-left: 70px;
+  margin-left: 140px;
   margin-bottom: 0px;
-  width: 50%;
+  width: 40%;
+  text-align: justify;
 }
 .image_about {
   float: right;
   margin-top: 40px;
-  width: 470px;
-  margin-right: 70px;
+  width: 500px;
+  margin-right: 130px;
 }
 .about {
   background-color: white;
   margin-top: 300px;
+  width: 100%;
 }
 
 .undraw2 {
@@ -174,6 +181,7 @@ span.fade {
 }
 .events {
   background-color: white;
+  width: 100%;
 }
 .heading5 {
   text-align: center;
@@ -222,12 +230,14 @@ span.fade {
 .salutation {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  text-align: left;
-  width: 50%;
+  text-align: justify;
   /* margin-left: 300px;*/
   color: black;
   align-self: center;
   justify-content: center;
+  width: 82%;
+  /*margin-left: 70px;*/
+  /*margin-right: 70px;*/
 }
 .salutation {
   margin-top: 50px;
@@ -502,6 +512,8 @@ body::-webkit-scrollbar {
 
   .homeflex {
     display: block;
+    margin-left: 0px;
+    width: 90%;
   }
   .heading1 {
     margin-top: 50px;
@@ -511,7 +523,7 @@ body::-webkit-scrollbar {
     text-align: center;
   }
   .description {
-    width: 90%;
+    width: 100%;
     margin-left: 20px;
     /*margin-right: 10px;*/
     margin-top: 15px;
@@ -533,21 +545,21 @@ body::-webkit-scrollbar {
   }
   .para1 {
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-right: 0px;
     margin-bottom: 0px;
-    width: 92%;
+    width: 90%;
     text-align: justify;
   }
   .para2 {
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    width: 95%;
+    width: 90%;
   }
   .para3 {
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -588,7 +600,8 @@ body::-webkit-scrollbar {
     padding: 10px;
     margin-top: 15px;
     margin-right: 0px;
-    width: 80%;
+    margin-left: 0px;
+    width: 90%;
     align-self: center;
     flex-direction: column;
   }
@@ -599,7 +612,8 @@ body::-webkit-scrollbar {
     padding: 10px;
     margin-top: 15px;
     margin-right: 0px;
-    width: 80%;
+    margin-left: 0px;
+    width: 90%;
     align-self: center;
   }
   .learn1 {
