@@ -88,20 +88,20 @@ span.fade {
 .para2 {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  font-weight: 600;
   margin-left: 140px;
   margin-bottom: 0px;
   width: 50%;
   text-align: justify;
+  font-weight: bolder;
 }
 .para3 {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  font-weight: 600;
   margin-left: 140px;
   margin-bottom: 0px;
   width: 40%;
   text-align: justify;
+  font-weight: bolder;
 }
 .image_about {
   float: right;
@@ -228,7 +228,7 @@ span.fade {
 
 .paragraph,
 .salutation {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   text-align: justify;
   /* margin-left: 300px;*/
@@ -238,6 +238,7 @@ span.fade {
   width: 82%;
   /*margin-left: 70px;*/
   /*margin-right: 70px;*/
+  font-weight: bolder;
 }
 .salutation {
   margin-top: 50px;
@@ -353,6 +354,7 @@ span.fade {
 .class {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
+  margin-bottom: 10px;
 }
 .membername {
   font-family: "Poppins", sans-serif;
